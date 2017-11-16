@@ -7,9 +7,13 @@ header{
   margin: auto;
   width: 500px;
   font-family: 'Roboto', sans-serif;
+  position: fixed;
+  top: 0;
 }
+
 ul li{
   list-style: none;
+
 }
 nav li a{
   background-color: #FFC107;
@@ -51,10 +55,10 @@ nav li ul li ul{
 	width: 550px;
 	height: 400px;
 	margin: 0 auto;
+  margin-top: 150px;
 }
 #cont{
 	width: 550px;
 	height: 400px;
 	margin: 0 auto;
 }
-
