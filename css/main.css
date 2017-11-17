@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	background-color: #E0E0E0/*#F7F7F7*/;
 }
-
+/*Menu-----------------------------------------------------------------------------*/
 *{
   padding: 0;
   margin: 0;
@@ -57,25 +57,120 @@ nav li ul li ul{
   right: -140px;
   top: 0;
 }
-
-
-#contenedor{
-	width: 550px;
+/*Primera sección------------------------------------------------------------------*/
+section{
+}
+#upper-row{
+	position: absolute;
+	width: 100%;
 	height: 44%;
+	top: 12%;
+}
+.contenedor-data1{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+.contenedor-data2{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-left: 5px;
+	top: 50%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+#contenedor{
+	width: 40%;
+	height: 100%;
 	position: absolute;
 	margin: 0 auto;
-  	top: 12%;
-  	left: 0;
+  	left: 20%;
   	padding: 5px;
+  	padding-bottom: 0;
   	box-sizing: border-box;
 }
-#cont{
-	width: 550px;
+.graph-left1{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	left: 60%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+#graph1{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	left: 80%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+.graph-left2{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	top: 50%;
+	left: 60%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+#graph2{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	top: 50%;
+	left: 80%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+#down-row{
+	position: absolute;
+	width: 100%;
 	height: 44%;
+	top: 56%;
+}
+#cont{
+	width: 40%;
+	height: 100%;
 	margin: 0 auto;
 	position: absolute;
-	top: 56%;
-	left: 0;
+	left: 20%;
 	padding: 5px;
   	box-sizing: border-box;
+}
+#graph3{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	left: 80%;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+#graph4{
+	position: absolute;
+	width: 19.55%;
+	height: 48.10%;
+	margin-top: 5px;
+	margin-right: 5px;
+	top: 50%;
+	left: 80%;
+	background-color: #FFF;
+	box-sizing: border-box;
 }

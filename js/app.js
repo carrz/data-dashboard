@@ -6,7 +6,7 @@ google.charts.load('current', {'packages':['bar']});
 
         function springResult() {
         var data = google.visualization.arrayToDataTable([
-          ['Spring', 'Técnico', 'HSE'],
+          ['', 'Técnico', 'HSE'],
           ['1er spring', 1000, 400],
           ['2do spring', 1170, 460],
           ['3er spring', 660, 1120],
@@ -15,8 +15,8 @@ google.charts.load('current', {'packages':['bar']});
 
         var options = {
           chart: {
-            title: 'Promedios de resultados por Spring',
-            subtitle: 'Promedios Técnicos y de HSE',
+            title: '',
+            subtitle: '',
           }
         };
 
