@@ -21,7 +21,7 @@ header{
 
 }
 
-ul li{
+nav ul li{
   list-style: none;
 
 }
@@ -37,7 +37,7 @@ nav{
   float: left;
   font-weight: 500;
 }
-li>li{
+nav li>li{
   display: none;
 
 }
@@ -79,13 +79,14 @@ nav li ul li ul{
 	color: black;
 
 }
+
 /*Primera sección: Overview -----------------------------------------------*/
 #overview{
 	position: relative;
 	width: 100%;
 	height:565px;
 	top: 77px;
-	display: none;
+
 }
 #upper-row{
 	position: absolute;

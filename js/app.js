@@ -169,4 +169,15 @@ google.charts.load('current', {'packages':['corechart']});
       }
 
 // Puedes hacer uso de la base de datos a través de la variable `data`
-console.log(data);
+//console.log(data);
+
+var mostrarOcultar = function(){
+  console.log('holo');
+}
+var cargarPagina = function(){/*carga todos los eventos cuando cargas la pagina una sola vez*/
+  var elementosTab = document.getElementsByClassName('tab');
+  for(var i = 0; i< elementosTab.length; i++){
+    elementosTab[i].addEventListener('click', mostrarOcultar);
+  }
+}
+cargarPagina ();
