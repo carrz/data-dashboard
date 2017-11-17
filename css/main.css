@@ -71,6 +71,15 @@ nav li ul li ul{
 	margin-left: 40px;
 	margin-top: 15px;
 }
+.fa-bars{
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: 15px;
+	font-size: 35px;
+	color: black;
+
+}
+
 /*Primera sección------------------------------------------------------------------*/
 section{
 }
@@ -188,3 +197,4 @@ section{
 	background-color: #FFF;
 	box-sizing: border-box;
 }
+/*Segunda sección------------------------------------------------------------------*/
