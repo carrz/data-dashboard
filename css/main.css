@@ -17,6 +17,8 @@ header{
   border-bottom: 1px solid black;
   box-sizing: border-box;
   z-index: 10;
+
+
 }
 
 ul li{
@@ -56,6 +58,18 @@ nav li ul li{
 nav li ul li ul{
   right: -140px;
   top: 0;
+}
+.logo{
+	position: absolute;
+	margin-left: 500px;
+	width: 160px;
+	height: 100%;
+
+}
+.sede{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 15px;
 }
 /*Primera sección------------------------------------------------------------------*/
 section{
