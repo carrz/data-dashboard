@@ -205,7 +205,14 @@ var mostrarOcultar = function(e){
 
 }
 var cargarPagina = function(){/*carga todos los eventos una sola vez cuando cargas la pagina */
+  var resumen= document.getElementById('overview');
+  var estudiantes= document.getElementById('students');
+  var staff= document.getElementById('staff');
   var elementosTab = document.getElementsByClassName('tab')
+  //muestro solo resumen cuando cargue la pagina
+  resumen.style.display='block';
+  estudiantes.style.display='none';
+  staff.style.display= 'none'
   for(var i = 0; i< elementosTab.length; i++){
     elementosTab[i].addEventListener('click', mostrarOcultar);
   }
