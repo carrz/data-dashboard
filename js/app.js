@@ -171,8 +171,38 @@ google.charts.load('current', {'packages':['corechart']});
 // Puedes hacer uso de la base de datos a través de la variable `data`
 //console.log(data);
 
-var mostrarOcultar = function(){
-  console.log('holo');
+var mostrarOcultar = function(e){
+  //console.log(e.target.dataset.tabSeleccionado);//entrega el string de el tab tabSeleccionado
+  var tabSeleccionado = e.target.dataset.tabSeleccionado;
+    //creo mis variables para no tener que escribir document.getElementById en cada seccion
+  var resumen= document.getElementById('overview');
+  var estudiantes= document.getElementById('students');
+  var staff= document.getElementById('staff');
+  if(tabSeleccionado === 'tabResumen'){
+    console.log('holo resumen'); //ocultar estudiantes y staff y mostrar resumen
+      //oculto estudiantes y staff
+    estudiantes.style.display='none';
+    staff.style.display='none';
+      //muestro resumen
+    resumen.style.display= 'block'
+
+
+  }else if(tabSeleccionado==='tabEstudiantes'){
+    console.log('holo estudiantes'); //ocultar resumen y staff y mostrar estudiantes
+    //oculto resumen y staff
+  resumen.style.display='none';
+  staff.style.display='none';
+    //muestro estudiantes
+  estudiantes.style.display= 'block'
+  }else if(tabSeleccionado==='tabStaff'){
+    console.log('holo staff');//mostrar staff y ocultar resumen y alumnos
+    //oculto resumen y alumnos
+  estudiantes.style.display='none';
+  resumen.style.display='none';
+    //muestro staff
+  staff.style.display= 'block'
+  }
+
 }
 var cargarPagina = function(){/*carga todos los eventos una sola vez cuando cargas la pagina */
   var elementosTab = document.getElementsByClassName('tab')
