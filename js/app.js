@@ -3,8 +3,8 @@ google.charts.load('current', {'packages':['bar']});
 google.charts.load('current', {'packages':['corechart']});
 
     // Set a callback to run when the Google Visualization API is loaded.
-    google.charts.setOnLoadCallback(assist); 
-    google.charts.setOnLoadCallback(springResult);  
+    google.charts.setOnLoadCallback(assist);
+    google.charts.setOnLoadCallback(springResult);
     google.charts.setOnLoadCallback(numberOfGirls);
     google.charts.setOnLoadCallback(satisfaction);
     google.charts.setOnLoadCallback(teacher);
@@ -174,8 +174,8 @@ google.charts.load('current', {'packages':['corechart']});
 var mostrarOcultar = function(){
   console.log('holo');
 }
-var cargarPagina = function(){/*carga todos los eventos cuando cargas la pagina una sola vez*/
-  var elementosTab = document.getElementsByClassName('tab');
+var cargarPagina = function(){/*carga todos los eventos una sola vez cuando cargas la pagina */
+  var elementosTab = document.getElementsByClassName('tab')
   for(var i = 0; i< elementosTab.length; i++){
     elementosTab[i].addEventListener('click', mostrarOcultar);
   }
