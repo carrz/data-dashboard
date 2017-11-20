@@ -1,7 +1,11 @@
 body{
 	margin: 0;
 	background-color: #E0E0E0/*#F7F7F7*/;
-	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+section{
+	position: relative;
+	top: 64.39px;
 }
 /*Menu-----------------------------------------------------------------------------*/
 *{
@@ -114,7 +118,6 @@ select{
 	font-weight: 500;
 	position: absolute;
 	width: 100px;
-
 }
 .botones li:nth-child(1){
 	margin-left: 190px;
@@ -129,7 +132,6 @@ select{
 	width: 150px;
 	margin-left: 390px;
 	list-style: none;
-
 }
 
 .tab{
@@ -140,8 +142,6 @@ select{
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 	text-decoration: none;
-
-
 }
 .tab:hover{
 	background: #DCDCDC;
@@ -159,7 +159,6 @@ select{
 	text-decoration: none;
 
 }
-
 .tab:focus,tab:active {outline: none;}/*sacar la molesta linea azul cuando uno clikea el boton*/
 
 /*Primera sección: Overview -----------------------------------------------*/
@@ -167,8 +166,8 @@ select{
 #overview{
 	position: relative;
 	width: 100%;
-	height:565px;
-	margin-top: 5%;
+	height:575px;
+	/*display: none;*/
 }
 #upper-row{
 	position: absolute;
@@ -246,7 +245,6 @@ select{
 	background-color: #FFF;
 	box-sizing: border-box;
 }
-
 #down-row{
 	position: absolute;
 	width: 100%;
@@ -291,17 +289,147 @@ select{
 	position: relative;
 	width: 100%;
 	height:565px;
-	top: 70px;
 	background-color: #F7F7F7;
-	/*display: none;*/
+	display: none;
 }
+.selector-stud{
+	width: 34.5%;
+	height: 300px;
+	background-color: #F7F7F7;
+	display: inline-block;
+	position: absolute;
+}
+.specialization{
+	width: 320px;
+	height: 100px;
+	padding: 21px;
+	margin-left: 59px;
+	margin-top: 21px;
+	background-color: #FFF;
+}
+.turn{
+	width: 320px;
+	height: 100px;
+	padding: 21px;
+	margin-left: 59px;
+	margin-top: 21px;
+	background-color: #FFF;
+}
+.check{
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	color: #1C2E36;
+	font-weight: 100;
+}
+.students{
+	width: 65.5%;
+	height: 3055px;
+	background-color: #F7F7F7;
+	display: inline-block;
+	right: 0;
+	position: absolute;
+}
+.search{
+	width: 749px;
+	height: 15px;
+	padding: 10px;
+	padding-left: 21px;
+	margin-bottom: 21px;
+	margin-top: 21px;
+	background-color: #FFF;
+	box-shadow: 1px 1px 0 1px #E1E1E1;
+}
+.student{
+	width: 738px;
+	height: 123px;
+	padding: 21px;
+	margin-bottom: 21px;
+	background-color: #FFF;
+	box-shadow: 1px 1px 0 1px #E1E1E1;
+	position: relative;
+}
+.photo{
+	display: inline-block;
+}
+.coder{
+	width: 123px;
+	height: 123px;
+}
+.name{
+	width: 279.5px;
+	height: 61px;
+	padding-left: 14px;
+	padding-right: 14px;
+	display: inline-block;
+    position: absolute;
+}
+.tags{
+	padding-top: 5px;
+}
+.skill{
+	width: 307.5px;
+	height: 71px;
+	background-color: #E0E0E0;
+	display: inline-block;
+    position: absolute;
+    right: 21px;
+}
+.tech{
+	width: 62px;
+	height: 43px;
+	padding: 7px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: inline-block;
+	text-align: center;
+}
+.life{
+	width: 62px;
+	height: 43px;
+	padding: 7px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-left: 1px solid #F7F7F7;
+	border-right: 1px solid #F7F7F7;
+	display: inline-block;
+	text-align: center;
+}
+.assis{
+	width: 130px;
+	height: 43px;
+	padding: 7px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: inline-block;
+	text-align: center;
+}
+.inactive{
+	position: absolute;
+	display: inline-block;
+    right: 21px;
+    bottom: 41px;
+}
+.percent{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.skills{
+	font-weight: 100;
+	font-size: 12px;
 
+}
+h3{
+	color: #FFC107;
+}
+label{
+	padding-left: 10px;
+}
 /*Tercera sección: Staff --------------------------------------------------*/
 
 #staff{
 	position: relative;
 	width: 100%;
-	height:565px;
-	top: 70px;
-	background-color: red;
+	height:575px;
+	background-color: #F7F7F7;
+	display: none
 }
