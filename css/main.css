@@ -355,6 +355,19 @@ select{
 	background-color: #FFF;
 	box-shadow: 1px 1px 0 1px #E1E1E1;
 }
+.search-input{
+	width: 700px;
+	height: 15px;
+	padding: 10px;
+	padding-left: 21px;
+	position: absolute;
+	border: none;
+	top: 21px;
+    left: 52px;
+}
+.fa-search{
+	z-index: 10;
+}
 .student{
 	width: 738px;
 	height: 123px;
@@ -432,7 +445,9 @@ select{
 .skills{
 	font-weight: 100;
 	font-size: 12px;
-
+}
+.red{
+	color: #A52A2A;
 }
 h3{
 	color: #FFC107;
@@ -448,4 +463,76 @@ label{
 	height:575px;
 	background-color: #F7F7F7;
 	display: none
+}
+.upper-jedi{
+	width: 100%;
+	height: 50%;
+	padding-left: 2%;
+	padding-right: 2%;
+	box-sizing: border-box;
+}
+.down-jedi{
+	width: 100%;
+	height: 50%;
+	padding-left: 2%;
+	padding-right: 2%;	
+	box-sizing: border-box;
+}
+.teacher{
+	margin-top: 10px;
+}
+.jedi{
+	width: 16.39%;
+    height: 95%;
+    padding: 10px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+.jdiv-photo{
+	width: 123px;
+	height: 123px;
+}
+.jedi-photo{
+	width: 180px;
+	height: 180px;
+}
+.jedi-name{
+	position: absolute;
+	bottom: 55px;
+}
+.jedi-points{
+	width: 180px;
+    height: 45px;
+    background-color: #E0E0E0;
+    position: absolute;
+    bottom: 10px;
+}
+.t-points{
+	width: 85px;
+	height: 45px;
+	display: inline-block;
+}
+.j-points{
+	width:85px;
+	height: 45px;
+	border-left: 2px solid #F7F7F7; 
+	display: inline-block;
+}
+.p-name{
+	font-size: 11px;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 100;
+}
+.p-number{
+	text-align: center;
+}
+.jedis-points{
+	width: 85px;
+	height: 45px;
+	background-color: #E0E0E0;
+    position: absolute;
+    bottom: 10px;
 }
