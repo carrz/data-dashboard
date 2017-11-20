@@ -24,7 +24,7 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
-          title: 'Age vs. Weight comparison',
+          title: 'Asistencia semanal',
           hAxis: {title: 'Semana', minValue: 0, maxValue: 6},
           vAxis: {title: 'Asistencia', minValue: 0, maxValue: 65},
           legend: 'none'

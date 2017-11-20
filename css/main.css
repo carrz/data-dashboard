@@ -120,17 +120,17 @@ select{
 	width: 100px;
 }
 .botones li:nth-child(1){
-	margin-left: 190px;
+	margin-left: 845px;
 	margin-top: -40px;
 	list-style: none;
 }
 .botones li:nth-child(2){
-	margin-left: 290px;
+	margin-left: 950px;
 	list-style: none;
 }
 .botones li:nth-child(3){
 	width: 150px;
-	margin-left: 390px;
+	margin-left: 1055px;
 	list-style: none;
 }
 
@@ -159,7 +159,23 @@ select{
 	text-decoration: none;
 
 }
-.tab:focus,tab:active {outline: none;}/*sacar la molesta linea azul cuando uno clikea el boton*/
+.tab:focus,tab:active {/*sacar la molesta linea azul cuando uno clikea el boton*/
+	outline: none;
+}
+
+.localizacion{
+	padding: 10px 5px;
+	background: #FFC107;
+	font-weight: 500;
+	position: absolute;
+	width: 260px;
+	height: 15px;
+	text-align:left;
+	margin-left: 160px;
+	font-size: 14px;
+
+
+}
 
 /*Primera sección: Overview -----------------------------------------------*/
 
@@ -317,7 +333,7 @@ select{
 }
 .check{
 	margin-top: 15px;
-	margin-bottom: 15px; 
+	margin-bottom: 15px;
 	color: #1C2E36;
 	font-weight: 100;
 }
