@@ -7,7 +7,9 @@ body{
 *{
   padding: 0;
   margin: 0;
+
 }
+
 header{
   margin: auto;
   width: 100%;
@@ -15,7 +17,7 @@ header{
   font-family: 'Roboto', sans-serif;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid black;
+  /*border-bottom: 1px solid black;*/
   box-sizing: border-box;
   z-index: 10;
 	background-color: white;
@@ -73,11 +75,18 @@ nav li ul li ul{
 .sede{
 	position: absolute;
 	margin-left: 40px;
-	margin-top: 15px;
+	margin-top: 25px;
 
 }
 .menu1{
 	font-weight: 500;
+	width: 80px;
+
+}
+.flag{
+	width: 25px;
+	height: 15px;
+	margin-right: 5px;
 }
 .fa-bars{
 	position: absolute;
@@ -87,12 +96,71 @@ nav li ul li ul{
 	color: black;
 
 }
+select{
+	position: absolute;
+	margin-left: 1265px;
+	margin-top: 5px;
+}
 /*media seccion: BOTONES -----------------------------------------------*/
 .botones{
 	width: 80px;
 	box-sizing: border-box;
-	margin-top: 60px;
+	margin-top: 68px;
+
 }
+.botones button{
+	padding: 10px 15px;
+	background: #FFC107;
+	font-weight: 500;
+	position: absolute;
+	width: 100px;
+
+}
+.botones li:nth-child(1){
+	margin-left: 190px;
+	margin-top: -40px;
+	list-style: none;
+}
+.botones li:nth-child(2){
+	margin-left: 290px;
+	list-style: none;
+}
+.botones li:nth-child(3){
+	width: 150px;
+	margin-left: 390px;
+	list-style: none;
+
+}
+
+.tab{
+	border-top: 2px solid  #424242 ;
+	border-left: 2px solid  #424242 ;
+	border-right: 2px solid  #424242 ;
+	border-bottom: 1px solid #FFC107;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;
+
+
+}
+.tab:hover{
+	background: #DCDCDC;
+	border-bottom: 6px solid #FFC107;
+
+}
+.tab:focus {
+	background: #DCDCDC;
+	border-bottom: 6px solid #FFC107;
+	text-decoration: none;
+}
+.tab:active {
+	border-bottom: 6px solid #FFC107;
+	background: #DCDCDC;
+	text-decoration: none;
+
+}
+
+.tab:focus,tab:active {outline: none;}/*sacar la molesta linea azul cuando uno clikea el boton*/
 
 /*Primera sección: Overview -----------------------------------------------*/
 
