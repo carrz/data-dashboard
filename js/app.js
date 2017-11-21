@@ -170,7 +170,7 @@ google.charts.load('current', {'packages':['corechart']});
 
 // Puedes hacer uso de la base de datos a través de la variable `data`
 //console.log(data);
-
+//------------------------------------------------------------------------------tabs
 var mostrarOcultar = function(e){
   //console.log(e.target.dataset.tabSeleccionado);//entrega el string de el tab tabSeleccionado
   var tabSeleccionado = e.target.dataset.tabSeleccionado;
@@ -218,3 +218,4 @@ var cargarPagina = function(){/*carga todos los eventos una sola vez cuando carg
   }
 }
 cargarPagina ();
+//-------------------------------------------------------menu profile
