@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background-color: #E0E0E0/*#F7F7F7*/;
+	background-color: #F7F7F7;
 	font-family: 'Roboto', sans-serif;
 }
 section{
@@ -71,7 +71,7 @@ nav li ul li ul{
 }
 .logo{
 	position: absolute;
-	margin-left: 600px;
+	margin-left: 540px;
 	width: 160px;
 	height: 100%;
 
@@ -84,7 +84,7 @@ nav li ul li ul{
 }
 .menu1{
 	font-weight: 500;
-	width: 80px;
+	width: 70px;
 
 }
 .flag{
@@ -123,12 +123,13 @@ nav li ul li ul{
 }
 .profile li a:hover{
   background-color: #DCDCDC;
-	font-weight: 700;
+  font-weight: 700;
 }
 .profile li ul{
   display: none;
   position: absolute;
   min-width: 195px;
+  right: 0;
 }
 .profile li:hover >ul{ /*li directos de ul*/
   display: block;
@@ -150,15 +151,21 @@ top: 0;
 /*--------------------------Idiomas------*/
 select{
 	position: absolute;
-	margin-left: 1265px;
-	margin-top: 5px;
+	margin-left: 40px;
+	background-color: #FFF;
+ 	color: black;
+ 	border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 11px;
+    font-weight: 700;
 }
 /*media seccion: BOTONES -----------------------------------------------*/
 .botones{
 	width: 80px;
 	box-sizing: border-box;
 	margin-top: 68px;
-
+	font-weight: 500;
 }
 .botones button{
 	padding: 10px 15px;
@@ -166,6 +173,8 @@ select{
 	font-weight: 500;
 	position: absolute;
 	width: 100px;
+	font-family: inherit;
+    font-size: 13px;
 }
 .botones li:nth-child(1){
 	margin-left: 845px;
@@ -183,9 +192,7 @@ select{
 }
 
 .tab{
-	border-top: 2px solid  #424242 ;
-	border-left: 2px solid  #424242 ;
-	border-right: 2px solid  #424242 ;
+	border: none;
 	border-bottom: 1px solid #FFC107;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -213,7 +220,7 @@ select{
 
 .localizacion{
 	padding: 10px 5px;
-	background: #FFC107;
+	background: #FFF;
 	font-weight: 500;
 	position: absolute;
 	width: 250px;
@@ -221,8 +228,6 @@ select{
 	text-align:left;
 	margin-left: 160px;
 	font-size: 14px;
-
-
 }
 
 /*Primera sección: Overview -----------------------------------------------*/
@@ -316,14 +321,11 @@ select{
 	top: 50%;
 }
 #cont{
-	width: 40%;
-	height: 100%;
-	margin: 0 auto;
+	width: 80%;
+	height: 80%;
 	position: absolute;
-	left: 20%;
-	padding: 5px;
-	padding-bottom: 0;
-  box-sizing: border-box;
+    bottom: 0;
+    left: 30px;
 }
 #graph3{
 	position: absolute;
@@ -346,7 +348,142 @@ select{
 	background-color: #FFF;
 	box-sizing: border-box;
 }
-
+.div-cont{
+	width: 39.3%;
+	height: 98%;
+	margin: 0 auto;
+	position: absolute;
+	left: 20.35%;
+	bottom: 0;
+	background-color: #FFF;
+	padding-bottom: 0;
+ 	box-sizing: border-box;
+}
+.title-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    left: 259px;
+    padding: 5px;
+    padding-left: 10px;
+    top: 5px;
+    width: 400px;
+}
+.large-title{
+	color: #000;
+}
+.minititle-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    left: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 149px;
+    width: 180px;
+    z-index: 1;
+}
+.minititle2-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    right: 64px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 5px;
+    width: 180px;
+    z-index: 1;
+}
+.minititle3-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    right: 64px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 149px;
+    width: 180px;
+    z-index: 1;
+}
+.minititle4-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    right: 64px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 5px;
+    width: 180px;
+    z-index: 1;
+}
+.minititle5-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    right: 321px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 147px;
+    width: 180px;
+    z-index: 1;
+}
+.minititle6-div{
+	position: absolute;
+    background-color: #E0E0E0;
+    right: 64px;
+    padding: 3px;
+    padding-left: 10px;
+    top: 147px;
+    width: 180px;
+    z-index: 1;
+}
+.little-title{
+	font-size: 10.5px;
+	color: #000;
+}
+.gray-div{
+	position: relative;
+	width: 150px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 45px;
+	background-color: #F7F7F7;
+}
+.gray-div:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(247, 247, 247, 0);
+	border-left-color: #F7F7F7;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.number{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+h5{
+	font-size: 11px;
+	font-weight: lighter;
+	text-align: center;
+}
+.green{
+	color: #F4C300;
+}
+.prom{
+	font-size: 11px;
+	font-weight: lighter;
+	text-align: center;
+}
+.prom1{
+	padding-top: 5px;
+	font-size: 11px;
+	font-weight: lighter;
+	text-align: center;
+}
+.tinny{
+	font-size: 9px;
+}
 /*Segunda sección: Students -----------------------------------------------*/
 
 #students{

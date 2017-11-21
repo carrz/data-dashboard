@@ -14,7 +14,7 @@ google.charts.load('current', {'packages':['corechart']});
 
     function assist() {
         var data = google.visualization.arrayToDataTable([
-          ['Semana', 'Asistencia'],
+          ['Semana', 'N°Alumnas'],
           [ 1,      58],
           [ 2,      58],
           [ 3,     49],
@@ -24,9 +24,9 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
-          title: 'Asistencia semanal',
+          title: '',
           hAxis: {title: 'Semana', minValue: 0, maxValue: 6},
-          vAxis: {title: 'Asistencia', minValue: 0, maxValue: 65},
+          vAxis: {title: 'N°Alumnas', minValue: 0, maxValue: 65},
           legend: 'none'
         };
 
@@ -37,10 +37,10 @@ google.charts.load('current', {'packages':['corechart']});
       function numberOfGirls() {
         var data = google.visualization.arrayToDataTable([
           ['Year', 'Activas', 'Desertoras'],
-          ['S1',  140,      4],
-          ['S2',  127,      6],
-          ['S3',  106,       1],
-          ['S4',  97,      5]
+          ['S1',  140,      3],
+          ['S2',  137,      11],
+          ['S3',  126,       14],
+          ['S4',  114,      2]
         ]);
 
         var options = {
@@ -55,17 +55,18 @@ google.charts.load('current', {'packages':['corechart']});
 
       function springResult() {
         var data = google.visualization.arrayToDataTable([
-          ['', 'Técnico', 'HSE'],
-          ['S1', 1000, 400],
-          ['S2', 1170, 460],
-          ['S3', 660, 1120],
-          ['S4', 1030, 540]
+          ['', 'TECH', 'LIFE'],
+          ['S1', 750, 780],
+          ['S2', 770, 860],
+          ['S3', 660, 820],
+          ['S4', 830, 840]
         ]);
 
         var options = {
           chart: {
             title: '',
             subtitle: '',
+            legend: { position: 'none' }
           }
         };
 
@@ -75,11 +76,11 @@ google.charts.load('current', {'packages':['corechart']});
 
       function satisfaction(){
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales'],
-          ['2004',  1000],
-          ['2005',  1170],
-          ['2006',  660],
-          ['2007',  1030]
+          ['Sprint', 'Promedio'],
+          ['S1',  4.1],
+          ['S2',  4.3],
+          ['S3',  4.0],
+          ['S4',  4.8]
         ]);
 
         var options = {
@@ -88,17 +89,17 @@ google.charts.load('current', {'packages':['corechart']});
           legend: { position: 'none' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('graph1'));
+        var chart = new google.visualization.LineChart(document.getElementById('graph3'));
         chart.draw(data, options);
       }
 
       function teacher(){
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales'],
-          ['2004',  1000],
-          ['2005',  1170],
-          ['2006',  660],
-          ['2007',  1030]
+          ['Sprint', 'Promedio'],
+          ['S1',  4.0],
+          ['S2',  3.9],
+          ['S3',  4.2],
+          ['S4',  4.7]
         ]);
 
         var options = {
@@ -113,49 +114,11 @@ google.charts.load('current', {'packages':['corechart']});
 
       function jedi(){
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales'],
-          ['2004',  1000],
-          ['2005',  1170],
-          ['2006',  660],
-          ['2007',  1030]
-        ]);
-
-        var options = {
-          title: '',
-          curveType: 'function',
-          legend: { position: 'none' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('graph2'));
-        chart.draw(data, options);
-      }
-
-      function achievement() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales'],
-          ['2004',  1000],
-          ['2005',  1170],
-          ['2006',  660],
-          ['2007',  1030]
-        ]);
-
-        var options = {
-          title: '',
-          curveType: 'function',
-          legend: { position: 'none' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('graph3'));
-        chart.draw(data, options);
-      };
-
-      function net() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales'],
-          ['2004',  1000],
-          ['2005',  1170],
-          ['2006',  660],
-          ['2007',  1030]
+          ['Sprint', 'Promedio'],
+          ['S1',  4.8],
+          ['S2',  4.3],
+          ['S3',  4.5],
+          ['S4',  4.8]
         ]);
 
         var options = {
@@ -165,6 +128,44 @@ google.charts.load('current', {'packages':['corechart']});
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('graph4'));
+        chart.draw(data, options);
+      }
+
+      function achievement() {
+        var data = google.visualization.arrayToDataTable([
+          ['Sprint', 'N°Alumnas'],
+          ['S1',  90],
+          ['S2',  82],
+          ['S3',  60],
+          ['S4',  72]
+        ]);
+
+        var options = {
+          title: '',
+          curveType: 'function',
+          legend: { position: 'none' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('graph1'));
+        chart.draw(data, options);
+      };
+
+      function net() {
+        var data = google.visualization.arrayToDataTable([
+          ['Sprint', 'Promotoras'],
+          ['S1',  80],
+          ['S2',  93],
+          ['S3',  90],
+          ['S4',  88]
+        ]);
+
+        var options = {
+          title: '',
+          curveType: 'function',
+          legend: { position: 'none' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('graph2'));
         chart.draw(data, options);
       }
 
